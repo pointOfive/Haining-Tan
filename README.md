@@ -1,4 +1,8 @@
 # Haining-Tan
 A U of T Readings Course
 
-Hello Haining!  Nothing here yet; but, we'll slowly get this into shape over the course of a year!
+Hello Haining!
+
+We'll make a landing page that makes more sense as we progress, but for now, 
+here's your (first question)[BayesImportanceSampling.ipynb]!
+
