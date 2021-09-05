@@ -1,10 +1,7 @@
-# Haining-Tan
+# Bayesian Analysis of Normalizing Flow Models using Importance Sampling
 A U of T Readings Course
 
-Hello Haining!
-
-We'll make a landing page that makes more sense as we progress, but for now, 
-here's your [first question](BayesImportanceSampling.ipynb)!
+Normalizing Flows are a widely used methodology which can approximate an arbitrarily complex data distribution by applying a series of invertible smooth (change of variables) transformations to a simple density. This Readings Course will explore the use of Importance Sampling to perform a Bayesian posterior analysis of a Normalizing Flow as a likelihood model using a suitable prior distribution as the importance sampling proposal function. By employing a Bayesian posterior analysis we intend to capture aleatoric uncertainty inherent in model fitting, and by using a Normalizing Flow as a likelihood we intend to capture epistemic uncertainty inherent in data. The work will be done in python using neural networks to learn the approximated function, and will address open questions implicit in this outline. E.g., how can one construct "a suitable prior" for this neural network methodology?
 
 ## Readings and Questions
 
