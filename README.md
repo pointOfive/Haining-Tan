@@ -13,8 +13,8 @@ here's your [first question](BayesImportanceSampling.ipynb)!
 1. [MADE: Masked Autoencoder for Distribution Estimation](https://arxiv.org/abs/1502.03509)
 2. [(MAF) Masked Autoregressive Flow for Density Estimation](https://arxiv.org/abs/1705.07057)
 3. [(IAF) Improving Variational Inference with Inverse Autoregressive Flow](https://arxiv.org/abs/1606.04934)
-4. I (personally) found explanatory videos on YouTube and "internet blog articles" a good *first* way to understand these methods
-   - Please identify and use as many such additional resources as needed to faciliate your efficient understanding of the methodologies here
+4. I (personally) found explanatory videos on YouTube and "internet blog articles" a good *first* way to understand these methods.
+   - Please identify and use as many such additional resources as needed to faciliate your efficient understanding of the methodologies here (and of course include these resources as referenced materials).
 
    Questions (all coding may be done in pytorch if you wish):
    - How can neural networks be used to represent a probability density in the manner of MADE?
