@@ -20,4 +20,4 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
      - (Re)Implement the ideas of [this documentation page](https://www.tensorflow.org/probability/api_docs/python/tfp/bijectors/AutoregressiveNetwork)
    - Why does IAF methodology exist when MAF methodology is already available?
      - (Re)Implement the ideas of [this documentation page](https://www.tensorflow.org/probability/api_docs/python/tfp/bijectors/MaskedAutoregressiveFlow)
-   - What distinguishes Normalizing Flows from GANs?
+   - What would you say is the primary methodological capability that distinguishes Normalizing Flows from GANs?
