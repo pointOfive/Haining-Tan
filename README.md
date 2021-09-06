@@ -18,6 +18,12 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
      - (Re)Implement the ideas of [this internet blog post](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html) 
    - What distinguishes MAF methodology from MADE methodology?
      - (Re)Implement the ideas of [this documentation page](https://www.tensorflow.org/probability/api_docs/python/tfp/bijectors/AutoregressiveNetwork)
+     - In the second block of code on this documentation page there is the comment
+       
+       `# Density estimation with MADE.`
+       
+       however, is the methodology coded up here MADE or MAF?  I.e., how do you rationalize what is meant by this code comment?
+       
    - Why does IAF methodology exist when MAF methodology is already available?
      - (Re)Implement the ideas of [this documentation page](https://www.tensorflow.org/probability/api_docs/python/tfp/bijectors/MaskedAutoregressiveFlow)
    - What would you say is the primary methodological capability that distinguishes Normalizing Flows from GANs?
