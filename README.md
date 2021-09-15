@@ -13,6 +13,11 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
    Questions:
    
    - How can neural networks be used to represent a probability density in the manner of MADE?
+      - *Outputs from neural networks can define the parameters of distributions; hence, define distributions*
+      - *MADE enforces autoregressive dependency in the outputs relative to the inputs:*
+        - output i only depends on inputs 0 through i-1
+        - if output i is the distribution for input i but only dependent on inputs 0 through i-1
+        - then all outputs autoregressively define a joint distribution via the chain rule
    - (Re)Implement the ideas of [this internet blog post](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html) 
 
    [Answers](MADE.ipynb) and [Comments](MADE_comments.ipynb)
