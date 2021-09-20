@@ -22,11 +22,23 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
 
    [Answers](MADE.ipynb) and [Comments](MADE_comments.ipynb)
    
-2. Variational Inference -- academic citation(s?) needed -- please find!
+2. [Variational Inference](https://arxiv.org/abs/1601.00670)
 
-   - Do my [Comments](MADE_comments.ipynb) from the previous topic make sense?
-      - Is there something that doesn't make sense to you?
-   - Please find an academic manuscript (or serveral) on Variational Inference which you think is a good reference for Variational Inference and link them here.
+   - [Rejoinder](Variational_Inference.ipynb) to [Comments](MADE_comments.ipynb)
+   - <details><summary>Further Comments</summary>
+     <br>
+     1. log(p(y)) is the expectation of the log likelihood under the prior so integrating over the (approximate) posterior is silly
+     but is workable since we can correct for it with the "triangulation" between the posterior/prior/approximate posterior. 
+     <br>
+     2. The hyper parameters of `DenseLayer` have improper (unconstrained) hyperpriors, choices of which (including those for \sigma) 
+     define the q(theta) approximation of the posterior p(theta|y).
+     <br>
+     3. For TF, `loss` is -log(p(y|theta) while `losses` is the KL-term; albeit, not very helpful as far as variable naming goes.
+     Generally, losses specific to layers are accumulated in `losses` and then added to the `loss` associated with the output.
+     <br>
+     4. Gradient descent makes its step on each batch, thus, the targeted objective must be correct for each batch.
+     </details>
+
    - Do you want to provide an explanatory report on the "Bonus: Tabula Rasa" section of the [Regression with Probabilitic Layers](https://blog.tensorflow.org/2019/03/regression-with-probabilistic-layers-in.html) article?
 
 *I (personally) find explanatory videos on YouTube and "internet blog articles" a good *first* way to understand these methods. Please identify and use as many such additional resources as needed to faciliate your efficient understanding of the methodologies here (and of course include these resources as referenced materials).*
