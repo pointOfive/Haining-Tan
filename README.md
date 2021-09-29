@@ -106,15 +106,32 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
 
 *I (personally) find explanatory videos on YouTube and "internet blog articles" a good *first* way to understand these methods. Please identify and use as many such additional resources as needed to faciliate your efficient understanding of the methodologies here (and of course include these resources as referenced materials).*
 
-6. Bayesian Approximation
+6. Some ideas for easy implementation of Bayesian approximation
 
    - [Dropout as Bayesian Approximation](https://arxiv.org/abs/1506.02142)
       - [Original Dropout Paper](https://jmlr.org/papers/v15/srivastava14a.html)
+      - [In TensorFlow](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dropout)
+      - [Dropout is not Bayesian Approximation](https://arxiv.org/abs/1711.02989)
    - [Batch Normalization as Bayesian Approximation](https://arxiv.org/abs/1802.06455)
       - [Original Batch Normalization Paper](https://arxiv.org/abs/1502.03167)
+      - [In TensorFlow](https://www.tensorflow.org/api_docs/python/tf/keras/layers/BatchNormalization)
+      - [Batch Normalization is not Bayesian Approximation](https://openreview.net/forum?id=BJlrSmbAZ)
+
+    Questions:
+    
+    0. Provide nice demonstrations of Dropout and Batch Normalization layers being useful in Neural Networks.
+    1. What conclusions do you draw from the academic discourse regarding these two ideas?
 
 7. Other Methodologies for Characterizing Uncertainty Estimation in Neural Networks
    - Begin by finding some online blogs enumerating some approaches
      - <**Enumerate your references here**>
    - Collect and summarize the manuscripts of some of the methodologies
      - <**Enumerate your references here**>
+
+8. Empirical Bayes
+
+   - <**Enumerate your references here**>
+
+   Questions:
+   0. What is empirical Bayes?
+   1. Provide a nice, simple example illustrating the concept and use of empirical Bayes in practice.
