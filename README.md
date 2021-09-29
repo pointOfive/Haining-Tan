@@ -40,8 +40,13 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
      4. Gradient descent makes its step on each batch, thus, the targeted objective must be correct for each batch.
      </details>
 
-3. [(MAF) Masked Autoregressive Flow for Density Estimation](https://arxiv.org/abs/1705.07057)
+3. Normalizing Flows (NFs)
+ 
+   - [(MAF) Masked Autoregressive Flow for Density Estimation](https://arxiv.org/abs/1705.07057)
+   - [(IAF) Improving Variational Inference with Inverse Autoregressive Flow](https://arxiv.org/abs/1606.04934)
 
+   Questions:
+   
    - What distinguishes MAF methodology from MADE methodology?
    - (Re)Implement the ideas of [this documentation page](https://www.tensorflow.org/probability/api_docs/python/tfp/bijectors/AutoregressiveNetwork)
      
@@ -50,14 +55,14 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
         `# Density estimation with MADE.`
        
         however, is the methodology coded up here MADE or MAF?  I.e., how do you rationalize what is meant by this code comment?
-
-4. [(IAF) Improving Variational Inference with Inverse Autoregressive Flow](https://arxiv.org/abs/1606.04934)
-
+        
    - Why does IAF methodology exist when MAF methodology is already available?
      - (Re)Implement the ideas of [this documentation page](https://www.tensorflow.org/probability/api_docs/python/tfp/bijectors/MaskedAutoregressiveFlow)
-   - What would you say is the primary methodological capability that distinguishes Normalizing Flows from GANs?
+   - What would you say is the primary methodological capability that distinguishes NFs from GANs?
 
-5. The relationship between Normalizing Flows (NFs) and Gaussian Processes (GPs).
+   [Answers](IAF_and_MAF.ipynb)
+
+4. The relationship between NFs and Gaussian Processes (GPs).
 
    - <**Enumerate your references here**>
 
@@ -106,7 +111,7 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
 
 *I (personally) find explanatory videos on YouTube and "internet blog articles" a good *first* way to understand these methods. Please identify and use as many such additional resources as needed to faciliate your efficient understanding of the methodologies here (and of course include these resources as referenced materials).*
 
-6. Some ideas for easy implementation of Bayesian approximation
+5. Some ideas for easy implementation of Bayesian approximation
 
    - [Dropout as Bayesian Approximation](https://arxiv.org/abs/1506.02142)
       - [Original Dropout Paper](https://jmlr.org/papers/v15/srivastava14a.html)
@@ -122,13 +127,13 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
    1. Provide nice demonstrations of Dropout and Batch Normalization layers being useful in Neural Networks.
    2. What conclusions do you draw from the academic discourse regarding these two ideas?
 
-7. Other Methodologies for Characterizing Uncertainty Estimation in Neural Networks
+6. Other Methodologies for Characterizing Uncertainty Estimation in Neural Networks
    - Begin by finding some online blogs enumerating some approaches
      - <**Enumerate your references here**>
    - Collect and summarize the manuscripts of some of the methodologies
      - <**Enumerate your references here**>
 
-8. Empirical Bayes
+7. Empirical Bayes
 
    - <**Enumerate your references here**>
 
