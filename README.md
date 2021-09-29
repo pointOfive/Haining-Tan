@@ -117,10 +117,10 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
       - [In TensorFlow](https://www.tensorflow.org/api_docs/python/tf/keras/layers/BatchNormalization)
       - [Batch Normalization is not Bayesian Approximation](https://openreview.net/forum?id=BJlrSmbAZ)
 
-    Questions:
+   Questions:
     
-    0. Provide nice demonstrations of Dropout and Batch Normalization layers being useful in Neural Networks.
-    1. What conclusions do you draw from the academic discourse regarding these two ideas?
+   1. Provide nice demonstrations of Dropout and Batch Normalization layers being useful in Neural Networks.
+   2. What conclusions do you draw from the academic discourse regarding these two ideas?
 
 7. Other Methodologies for Characterizing Uncertainty Estimation in Neural Networks
    - Begin by finding some online blogs enumerating some approaches
@@ -133,5 +133,6 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
    - <**Enumerate your references here**>
 
    Questions:
-   0. What is empirical Bayes?
-   1. Provide a nice, simple example illustrating the concept and use of empirical Bayes in practice.
+   
+   1. What is empirical Bayes?
+   2. Provide a nice, simple example illustrating the concept and use of empirical Bayes in practice.
