@@ -45,22 +45,25 @@ Normalizing Flows are a widely used methodology which can approximate an arbitra
    - [(MAF) Masked Autoregressive Flow for Density Estimation](https://arxiv.org/abs/1705.07057)
    - [(IAF) Improving Variational Inference with Inverse Autoregressive Flow](https://arxiv.org/abs/1606.04934)
 
-   Questions:
+   <br>
+   <details><summary>Questions</summary>
+   <br>
+   What distinguishes MAF methodology from MADE methodology?
+   <br>
+   (Re)Implement the ideas of [this documentation page](https://www.tensorflow.org/probability/api_docs/python/tfp/bijectors/AutoregressiveNetwork)
+   <br>
+   In the second block of code on this documentation page there is the comment `# Density estimation with MADE.`
+   <br>
+   however, is the methodology coded up here MADE or MAF?  I.e., how do you rationalize what is meant by this code comment?
+   <br>
+   Why does IAF methodology exist when MAF methodology is already available?
+   <br>
+   (Re)Implement the ideas of [this documentation page](https://www.tensorflow.org/probability/api_docs/python/tfp/bijectors/MaskedAutoregressiveFlow)
+   <br>
+   What would you say is the primary methodological capability that distinguishes NFs from GANs?
+   </details>
    
-   - What distinguishes MAF methodology from MADE methodology?
-   - (Re)Implement the ideas of [this documentation page](https://www.tensorflow.org/probability/api_docs/python/tfp/bijectors/AutoregressiveNetwork)
-     
-     - In the second block of code on this documentation page there is the comment
-       
-        `# Density estimation with MADE.`
-       
-        however, is the methodology coded up here MADE or MAF?  I.e., how do you rationalize what is meant by this code comment?
-        
-   - Why does IAF methodology exist when MAF methodology is already available?
-     - (Re)Implement the ideas of [this documentation page](https://www.tensorflow.org/probability/api_docs/python/tfp/bijectors/MaskedAutoregressiveFlow)
-   - What would you say is the primary methodological capability that distinguishes NFs from GANs?
-
-   [Answers](IAF_and_MAF.ipynb)
+   [Answers](IAF_and_MAF.ipynb) and [Comments](IAF_MAF_comments.ipynb)
 
 4. The relationship between NFs and Gaussian Processes (GPs).
 
